@@ -9,13 +9,15 @@
 <p align="center">
   <strong>The Community Operating System</strong>
   <br />
-  Community spaces, courses, email, events, gamification, AI assistant, automation, and monetization — all in one platform.
+  Community spaces, courses, email, events, gamification, AI assistant, Discord bot, automation, and monetization — all in one platform.
 </p>
 
 <p align="center">
   <a href="https://tenant.so">Website</a> •
+  <a href="https://tools.tenant.so">Free Tools</a> •
+  <a href="https://tenant.so/alternative/circle">Compare</a> •
   <a href="https://support.tenant.so">Live Demo</a> •
-  <a href="https://github.com/Tenant-so/community-platform-comparison">Platform Comparison</a>
+  <a href="https://github.com/Tenant-so/community-platform-comparison">Feature Matrix</a>
 </p>
 
 ---
@@ -34,24 +36,63 @@ Tenant.so is an all-in-one community platform that replaces Circle, Skool, Kajab
 | Automation | Zapier ($49/mo) | Built-in |
 | Gamification | Custom development | Built-in |
 | AI Assistant | Not available | Built-in (Jarvis) |
+| Discord Integration | Custom bot build | Built-in |
 | **Total** | **$276+/mo** | **One platform** |
 
 ### Features
 
-- **Community Spaces** — Feed, chat, events, dashboards, calculators
+- **Community Spaces** — Feed, chat, events, dashboards, calculators, liveboards
 - **Online Courses** — Sections, lessons, quizzes, progress tracking, certificates
 - **Built-in Email** — Campaigns, sequences, and transactional — no ConvertKit needed
 - **Real-time Chat** — Powered by Ably, instant messaging and notifications
 - **Gamification** — Streaks, recognition badges, leagues, leaderboards
-- **AI Course Assistant** — Jarvis answers questions from your course content
-- **Flexible Payments** — Cards, BNPL, ACH, and crypto at 0% platform fees
-- **Events** — Virtual and in-person events with registration
-- **Multi-tenant** — Run multiple communities from one account
+- **AI Course Assistant (Jarvis)** — RAG-powered assistant that answers from your course content
+- **Discord Bot** — Native Discord integration with milestone alerts, daily digests, `/tenant-latest` and `/tenant-join` slash commands
+- **Member Invitations** — Admin invite wizard with opt-in accept flow (no force-create imports)
+- **Free Member Tier** — Freemium signup with paywall-aware sidebar scoping and configurable landing spaces
+- **Flexible Payments** — Cards, BNPL, ACH, and crypto (including Monero/XMR) at 0% platform fees
+- **Affiliate Program** — Built-in affiliate tracking, coupon management, and payouts
+- **Events** — Virtual and in-person events with registration and reminders
+- **Multi-tenant** — Run multiple communities from one account with full data isolation
+- **Cascade Intelligence** — Market/economic liveboards and macro scenario analysis (for finance communities)
 - **31+ Integrations** — Built-in, no Zapier needed
+
+---
+
+### Try Our Free Tools
+
+Free utilities at [tools.tenant.so](https://tools.tenant.so) — no signup required. Every tool can be claimed into a full Tenant.so community in one click.
+
+| Tool | What It Does |
+|------|--------------|
+| [Community Name Generator](https://tools.tenant.so/name-generator) | AI-powered community names with available subdomains |
+| [Course Outline Generator](https://tools.tenant.so/course-outline) | Turn a topic into a complete course curriculum with sections, lessons, and practical exercises |
+| [Discord Community Bot](https://tools.tenant.so/discord) | Free Discord bot — milestone alerts, daily digests, and `/tenant-*` slash commands |
+
+---
+
+### Platform Comparisons
+
+How Tenant.so stacks up against every major community and course platform:
+
+| Platform | Comparison |
+|----------|-----------|
+| Circle | [tenant.so/alternative/circle](https://tenant.so/alternative/circle) |
+| Skool | [tenant.so/alternative/skool](https://tenant.so/alternative/skool) |
+| Kajabi | [tenant.so/alternative/kajabi](https://tenant.so/alternative/kajabi) |
+| Teachable | [tenant.so/alternative/teachable](https://tenant.so/alternative/teachable) |
+| Mighty Networks | [tenant.so/alternative/mighty-networks](https://tenant.so/alternative/mighty-networks) |
+| Thinkific | [tenant.so/alternative/thinkific](https://tenant.so/alternative/thinkific) |
+| Discord | [tenant.so/alternative/discord](https://tenant.so/alternative/discord) |
+| Heartbeat | [tenant.so/alternative/heartbeat](https://tenant.so/alternative/heartbeat) |
+
+Want the full feature-by-feature matrix? See [community-platform-comparison](https://github.com/Tenant-so/community-platform-comparison).
+
+---
 
 ### Tech Stack
 
-`Next.js` · `TypeScript` · `tRPC` · `Prisma` · `PostgreSQL` · `Stripe` · `Ably` · `Tailwind CSS` · `shadcn/ui` · `Vercel`
+`Next.js` · `TypeScript` · `tRPC` · `Prisma` · `PostgreSQL` · `Stripe` · `Ably` · `Cloudflare R2` · `OpenAI` · `Tailwind CSS` · `shadcn/ui` · `Vercel`
 
 ### Open Resources
 
